@@ -46,12 +46,15 @@ default_account_name = "default"
 explorer_uri = "https://eth-sepolia.blockscout.com/"
 explorer_type = "blockscout"
 
+[networks.contracts.coffee]
+deployer_script = "script/deploy.py"
+
 [networks.anvil]
 url = "http://127.0.0.1:8545"
 chain_id = 31337
-save_to_db = false
+save_to_db = true
 default_account_name = "anvil1"
-prompt_live = false
+# prompt_live = false
 
 [networks.zksync-local]
 url = "http://127.0.0.1:8011"
