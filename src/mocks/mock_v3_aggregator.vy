@@ -1,4 +1,5 @@
-# pragma version ^0.4.0
+# MockV3Aggregator.vy
+# A mock of the Chainlink V3 Aggregator interface for testing purposes.
 # @license MIT
 
 DECIMALS: immutable(uint8)
